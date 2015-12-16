@@ -1,0 +1,7 @@
+CodeCeption test project for a WooCommerce site
+
+Requires: Composer
+
+Setup:
+1) Check out code
+2) Run: composer update
