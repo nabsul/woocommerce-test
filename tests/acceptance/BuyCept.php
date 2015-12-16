@@ -14,3 +14,10 @@ $I->see('Happy Ninja');
 $I->see('Product Description');
 $I->see('$35');
 
+$I->click('Add to cart');
+$I->click('View Cart');
+$I->click('Proceed to Checkout');
+
+$I->fillField('billing_first_name', 'Nabeel');
+$I->fillField('billing_last_name', 'Sulieman');
+
